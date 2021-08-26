@@ -1,0 +1,579 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.body {
+    width: 100%;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_header {
+    cursor: pointer;
+    margin-left: 133px;
+    padding-top: 57px;
+    width: 106px;
+    height: 30px;
+    margin-right: 0;
+}
+
+.nav_header {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
+    padding-top: 58px;
+    grid-gap: 72px;
+    margin-right: 132px;
+}
+
+.text_header {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #AAAAAB;
+}
+
+.text_header:hover {
+    color: #56597A;
+}
+
+.menu_burger {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 110px;
+}
+
+.nav_main {
+    margin-left: 135px;
+}
+
+.caption_main {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+}
+
+.title_main {
+    width: 600px;
+    padding-top: 29px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #56597A;
+}
+
+.text_main {
+    width: 537px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 31px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+
+.button_main {
+    cursor: pointer;
+    text-decoration: none;
+    width: 216px;
+    height: 66px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 32px;
+    margin-top: 42px;
+    margin-left: 0;
+    background: #F78BB6;
+    border-radius: 4px;
+}
+
+.button_main:hover {
+    background: #F78CB6;
+    box-shadow: 5px 5px 5px 5px rgba(247, 139, 182, 0.2);
+    border-radius: 4px;
+}
+
+.button_text {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-top: 17px;
+    padding-left: 18px;
+}
+
+.button_image {
+    padding-top: 17px;
+    padding-right: 18px;
+}
+
+.image_main {
+    margin-right: 136px;
+}
+
+.services {
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 230px;
+}
+
+.caption_services {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+}
+
+.title_services {
+    padding-top: 6px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 72px;
+    color: #56597A;
+}
+
+.nav_services {
+    padding-top: 58px;
+    width: auto;
+    margin-left: 135px;
+    margin-right: 135px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+}
+
+.item_services {
+    cursor: pointer;
+    background: #FFF1F9;
+    border-radius: 8px;
+}
+
+.image_item {
+    padding-top: 53px;
+    display: flex;
+    justify-content: center;
+}
+
+.title_item {
+    display: flex;
+    justify-content: center;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 72px;
+    color: #56597A;
+    padding-top: 38px;
+}
+
+.info_item {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #919299;
+    padding-bottom: 30px;
+}
+
+.info_one {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 194px;
+}
+
+.image_info_one {
+    margin-left: 156px;
+}
+
+.text_info_one {
+    margin-left: 79px;
+}
+
+.caption_info {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+}
+
+.title_info {
+    padding-top: 15px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 62px;
+    color: #56597A;
+}
+
+.button_info {
+    cursor: pointer;
+    text-decoration: none;
+    width: 216px;
+    height: 66px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 32px;
+    margin-top: 40px;
+    margin-left: 0;
+    background: #F78BB6;
+    border-radius: 4px;
+}
+
+.button_info:hover {
+    background: #F78CB6;
+    box-shadow: 5px 5px 5px 5px rgba(247, 139, 182, 0.2);
+    border-radius: 4px;
+}
+
+.text_info {
+    padding-top: 24px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #919299;
+}
+
+.info_two {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 194px;
+}
+
+.text_info_two {
+    margin-left: 135px;
+}
+
+.image_info_two {
+    margin-right: 143px;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_people {
+    margin-left: 137px;
+}
+
+.image_people {
+    margin-left: 186px;
+    margin-right: 0;
+}
+
+.text_people {
+    margin-left: 137px;
+}
+
+.name_people {
+    padding-top: 23px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #56597A;
+}
+
+.nav_people {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.address_people {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ABABAB;
+    margin-left: 0;
+}
+
+.button_people {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left_button_people {
+    cursor: pointer;
+    margin-right: 13px;
+}
+
+.right_button_people {
+    cursor: pointer;
+}
+
+.parthers {
+    display: flex;
+    align-items: center;
+    padding-top: 163px;
+    padding-bottom: 83px;
+    height: 157px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.parthers_item {
+    width: auto;
+    transform: 2s;
+}
+
+.parthers_item:hover {
+    transform: scale(1.5);
+}
+
+.subscribe {
+    padding-bottom: 160px;
+}
+
+.info_subscribe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_subscribe {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 72px;
+    color: #56597A;
+}
+
+.text_subscribe {
+    padding-top: 18px;
+    padding-bottom: 30px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #919299;
+}
+
+.email_subscribe {
+    width: 706px;
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+    filter: drop-shadow(20px 20px 40px rgba(86, 89, 122, 0.75));
+}
+
+.email_address {
+    display: flex;
+    flex-direction: row;
+    margin-left: 27px;
+}
+
+.image_email {
+    padding-top: 6.5px;
+    width: 19px;
+    height: 19px;
+}
+
+.text_email_address {
+    margin-left: 14px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #D2D2D2;
+}
+
+.button_email {
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 13px;
+    width: 178px;
+    height: 54px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 30px;
+    margin-left: 0;
+    background: #F78BB6;
+    border-radius: 4px;
+}
+
+.button_email:hover {
+    background: #F78CB6;
+    box-shadow: 5px 5px 5px 5px rgba(247, 139, 182, 0.2);
+    border-radius: 4px;
+}
+
+.button_text_email {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-left: 17px;
+}
+
+.button_image_email {
+    padding-top: 12px;
+    padding-right: 17px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background: #F78CB6;
+}
+
+.image_footer {
+    margin-right: 0;
+}
+
+.text_footer {
+    margin-left: 6px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.link {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    padding-top: 71px;
+    padding-bottom: 64px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.about_link {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.logo_link {
+    width: 127px;
+    height: 30px;
+    padding-bottom: 38px;
+}
+
+.address_link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+
+.follow_link {
+    padding-top: 38px;
+    padding-bottom: 16px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+
+.social {
+    width: 197px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 11px;
+    margin-left: 0;
+}
+
+.item_social {
+    cursor: pointer;
+}
+
+.group_link {
+    margin-right: 0;
+}
+
+.title_group_link {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #56597A;
+}
+
+.group {
+    padding-top: 37px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    grid-row-gap: 25px;
+}
+
+.text_group_link {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
